@@ -72,7 +72,7 @@ function SignUp() {
         <Input
           type="email"
           className="form-control"
-          placeholder={'Enter email'}
+          placeholder={'admin'}
           handleChange={handleChange}
           value={user.email}
           name="email"
@@ -84,7 +84,7 @@ function SignUp() {
         <Input
           type="password"
           className="form-control"
-          placeholder="Enter password"
+          placeholder="admin"
           handleChange={handleChange}
           value={user.password}
           name="password"
