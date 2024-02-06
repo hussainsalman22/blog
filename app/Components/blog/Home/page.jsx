@@ -12,7 +12,7 @@ export default function AddTopic() {
   const [input, setinput] = useState("")
   const [link, setlink] = useState("")
   const router = useRouter();
- let name = localStorage.getItem("data")
+ let name = localStorage.getItem("data") || ""
  
 
   const handleSubmit = async (e) => {
