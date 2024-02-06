@@ -50,7 +50,7 @@ function SignUp() {
   <h1 className="text-2xl text-center font-bold mb-2 ">Create Account</h1>
   <input
     type="text"
-    handleChange={handleChange}
+    onChange={handleChange}
     placeholder="Enter Name"
     value={user.name}
     name="name"
@@ -58,7 +58,7 @@ function SignUp() {
   />
   <input
     type="email"
-    handleChange={handleChange}
+    onChange={handleChange}
     placeholder="Enter Email"
     value={user.email}
     name="email"
@@ -66,7 +66,7 @@ function SignUp() {
   />
   <input
     type="password"
-    handleChange={handleChange}
+    onChange={handleChange}
     placeholder="Enter Password"
     value={user.password}
     name="password"
@@ -74,7 +74,7 @@ function SignUp() {
   />
   <input
     type="number"
-    handleChange={handleChange}
+    onChange={handleChange}
     placeholder="Enter Number"
     value={user.number}
     name="number"
@@ -94,14 +94,6 @@ function SignUp() {
     )
 }
 
-export const Input = ({ type, placeholder, value, name, handleChange,className }) => {
-    return (
-        <input className = {className} 
-            value={value}
-            onChange={(e) => handleChange(e)}
-            type={type} placeholder={placeholder} name={name} />
-    )
-}
 
 
 
