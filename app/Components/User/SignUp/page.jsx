@@ -48,7 +48,7 @@ function SignUp() {
         <>
            <div  className="max-w-md flex flex-col gap-3 mx-auto p-4 bg-white rounded shadow-md">
   <h1 className="text-2xl text-center font-bold mb-2 ">Create Account</h1>
-  <Input
+  <input
     type="text"
     handleChange={handleChange}
     placeholder="Enter Name"
@@ -56,7 +56,7 @@ function SignUp() {
     name="name"
     className="mb-2 p-2 w-full border border-gray-300 rounded"
   />
-  <Input
+  <input
     type="email"
     handleChange={handleChange}
     placeholder="Enter Email"
@@ -64,7 +64,7 @@ function SignUp() {
     name="email"
     className="mb-2 p-2 w-full border border-gray-300 rounded"
   />
-  <Input
+  <input
     type="password"
     handleChange={handleChange}
     placeholder="Enter Password"
@@ -72,7 +72,7 @@ function SignUp() {
     name="password"
     className="mb-2 p-2 w-full border border-gray-300 rounded"
   />
-  <Input
+  <input
     type="number"
     handleChange={handleChange}
     placeholder="Enter Number"

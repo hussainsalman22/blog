@@ -69,7 +69,7 @@ function SignUp() {
 
       <div className="mb-3">
         <label>Email address</label>
-        <Input
+        <input
           type="email"
           className="form-control"
           placeholder={'admin'}
@@ -81,7 +81,7 @@ function SignUp() {
 
       <div className="mb-3">
         <label>Password</label>
-        <Input
+        <input
           type="password"
           className="form-control"
           placeholder="admin"
