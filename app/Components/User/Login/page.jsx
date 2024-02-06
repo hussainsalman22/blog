@@ -73,7 +73,7 @@ function SignUp() {
           type="email"
           className="form-control"
           placeholder={'admin'}
-          handleChange={handleChange}
+          onChange={handleChange}
           value={user.email}
           name="email"
         />
@@ -85,7 +85,7 @@ function SignUp() {
           type="password"
           className="form-control"
           placeholder="admin"
-          handleChange={handleChange}
+          onChange={handleChange}
           value={user.password}
           name="password"
 
@@ -123,14 +123,6 @@ function SignUp() {
   
 }
 
-export const Input = ({ type, placeholder, value, name, handleChange }) => {
-  return (
-    <input className='border-2 '
-      value={value}
-      onChange={(e) => handleChange(e)}
-      type={type} placeholder={placeholder} name={name} />
-  )
-}
 
 
 
